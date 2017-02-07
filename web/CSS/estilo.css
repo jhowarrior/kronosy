@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1150px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main { background: #696969; width: 1349px; height: 700px; margin-top: 40px;}
+
+#header {
+    height: 240px;
+    background: black;
+}
+
+#imagemPerfil{
+    height: 240px;
+    width: 150px;
+    background: black;
+    z-index: 1000;
+}
+
+.lightBlue { background-color: #edf8f7}
+
+.lightMenu {background-color: yellow}
+
+#exFoto{
+    height: 10px;
+    width: 100px;
+    background-color: blue;
+}
+
+#fotoCarrinho{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+#fotoMostrador{
+    margin: 70px 20px 10px;
+    height: 500px;
+    width: 400px;
+    background-color: blue;
+}
+
+#textoMostrador{
+    position: absolute;
+    margin: -500px 550px 100px;
+    background-color: white;
+    width: 400px;
+}
+
+#logo {
+    height: 55px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#logoimg {
+    width: 650px;
+    height: 190px;
+}
+
+#logoText {
+    float: center;
+    margin: 20px 0 0 70px;
+    /* font styles apply to text within alt tags */
+    font-family: 'American Typewriter', Courier, monospace;
+    font-size: 50px;
+    color: #333;
+}
+
+#widgetBar {
+    height: 50px;
+    width: 1350px;
+    float: right;
+    background: grey;
+}
+
+.headerWidget {
+    width: 150px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #aaa;
+}
+
+#footer {
+    height: 60px;
+    width: 100%;
+    clear: left;
+    background: #aaa;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 200px;
+}
+
+#indexLeftColumn {
+    height: 130%;
+    width: 20%;
+    float: left;
+    background: #ccc;
+}
+
+#escLotr {
+    width: 250px;
+    height: 40px;
+}
+
+#indexRightColumn {
+    height: 130%;
+    width: 80%;
+    float: left;
+    background: #696969;
+}
+/*Parte feita exclusivamente para a parte de cadastro de produto e de pessoa*/
+#indexRightColumnCadastro {
+    height: 912px;
+    width: 80%;
+    float: left;
+    background: #696969;
+}
+
+#indexLeftColumnCadastro {
+    height: 912px;
+    width: 20%;
+    float: left;
+    background: #ccc;
+}
+
+#fundoCadastro {
+    height: 730px;
+    width: 770px;
+    left: 20%;
+    background: lightgray;
+}
+/*Fim da parte exclusiva*/
+
+.categoryBox {
+    height: 226px;
+    width: 450px;
+    margin: 21px 14px 6px;
+    float: inherit;
+    background: #ccc;
+}
+
+.categoryLabelText {
+    line-height: 150%;
+    font-size: x-large;
+    position: absolute;
+}
+
+#imagem {
+width: 450px;
+height: 226px;
+}
+
+/*#texto {
+position: absolute;
+margin-top: -500px;
+}*/
+
+/* category page styles */
+#categoryLeftColumn {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+#categoryRightColumn {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+
+.categoryButton {
+    margin: 15px 22px;
+    padding: 13px;
+    display: block;
+    background-color: #FFEC8B;
+}
+
+#selectedCategory {
+    background-color: #FFD700;
+    margin-left: 10px;
+    width: 139px;
+}
+
+#categoryTitle {
+    margin: 0px 180px 0 0;
+    font-size: x-large;
+    float: left;
+    background-color: #f5eabe;
+    padding: 5px;
+}
+
+.categoryText {
+    line-height: 25px;
+    font-size: x-large;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#productTable { width: 950px }
+
+#productTable tr { height: 90px }
+
+#productTable td { width: 145px }
+
+
+/*teste*/
+/* GLOBAL STYLES
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 270px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
